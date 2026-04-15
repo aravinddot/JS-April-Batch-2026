@@ -1,5 +1,5 @@
 
-//const arr = ["cypress", "selenium", "nightwatch", "webdriverio", "puppeteer", "playwright", "testcafe", "protractor"];
+// const arr = ["cypress", "selenium", "nightwatch", "webdriverio", "puppeteer", "playwright", "testcafe", "protractor"];
 
 
 // for(const value of arr) {
@@ -31,7 +31,7 @@
 // }
 
 
-//const arr = ["cypress", "selenium", "nightwatch", "webdriverio", "puppeteer", "playwright", "testcafe", "protractor"];
+// const arr = ["cypress", "selenium", "nightwatch", "webdriverio", "puppeteer", "playwright", "testcafe", "protractor"];
 
 
 // function printValues(arrayValues) {
