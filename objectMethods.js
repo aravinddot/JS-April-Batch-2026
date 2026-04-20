@@ -2,12 +2,17 @@
 
 // object methods
 
-// const person = {
-//     name: "Aravind",
-//     age: 30,
-//     city: "Bangalore",
-//     profession: "Software Engineer"
-// }
+const person = {
+    name: "Aravind",
+    age: 30,
+    city: "Bangalore",
+    profession: "Software Engineer"
+}
+
+// [name, Aravind]
+// [age, 30]
+// [city, Bangalore]
+// [profession, Software Engineer]
 
 // console.log(person["name"]);
 
@@ -32,11 +37,11 @@
     
 // }
 
-// for(const key of Object.entries(person)) {
+for(const [key, value] of Object.entries(person)) {
     
-//     console.log(key);
+    console.log(key, value);
     
-// }
+}
 
 
 // const personTwo = {
@@ -59,9 +64,9 @@
 // console.log(personTwo);
 
 
-const obj1 = {a: 1, b: 2}
-const obj2 = {c: 3, d: 4}
+// const obj1 = {a: 1, b: 2}
+// const obj2 = {c: 3, d: 4}
 
-const mergedObj = Object.assign({}, obj1, obj2) //merges two or more objects and returns a new object
+// const mergedObj = Object.assign({}, obj1, obj2) //merges two or more objects and returns a new object
 
-console.log(mergedObj);
+// console.log(mergedObj);
